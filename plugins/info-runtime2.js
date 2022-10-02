@@ -41,7 +41,7 @@ token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
-sellerJid: '6282127487538@s.whatsapp.net',
+sellerJid: '6281265970249@s.whatsapp.net',
 thumbnail: fs.readFileSync('./thumbnail.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)

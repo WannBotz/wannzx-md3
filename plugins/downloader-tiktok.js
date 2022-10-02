@@ -23,7 +23,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
 ────────── ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻ ──────────
 *Nickname:* ${nickname}
 *Description:* ${description}
-_©WH-MODS-BOT-V1🍭_
+_©WannBotz🍭_
 `.trim(), m)
 //}
 /* catch {

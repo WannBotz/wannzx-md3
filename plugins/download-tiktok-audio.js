@@ -23,7 +23,7 @@ let audio = await toAudio(f, 'mp4')
 ────────── ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻ ──────────
 *Nickname:* ${nickname}
 *Description:* ${description}
-_©WH-MODS-BOT-V1🍭_
+_©WannBotz🍭_
 `.trim(), m, null, { mimetype:'audio/mpeg'})
 }
 handler.help = ['tiktokmusik', 'ttmusik', 'tiktokaudio', 'tta'].map(v => v + ' <url>')

@@ -357,9 +357,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │${emot} *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │${emot} *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │
-├━━━━━━━━━━━━━━━━┈─⋆
-│
-│ ▸ *Sumber :* YouTube WH-MODS-DEV
+├━━━━━━━━━━━━━━━━┈─⋆.
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
@@ -497,7 +495,7 @@ const listMessage = {
   }
   }
   
-    let urls = pickRandom(['https://telegra.ph/file/035e524939ab0294ba91f.jpg', 'https://telegra.ph/file/96b2275d3b14d071290bc.jpg', 'https://telegra.ph/file/2c6b7660bc6126404a9bb.jpg', 'https://telegra.ph/file/c635bf577bb9d59a3e00b.jpg', 'https://telegra.ph/file/be8dd52f6363f9e9f5a60.jpg', 'https://telegra.ph/file/02e53361b9dc946f63c8d.jpg', 'https://telegra.ph/file/298ed2f1bba17aeb64ca8.jpg', 'https://telegra.ph/file/be2a18221974147f66ea0.jpg'])
+    let urls = pickRandom(['https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg', 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg'])
   
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
     

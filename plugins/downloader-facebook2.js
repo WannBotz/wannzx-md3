@@ -4,7 +4,7 @@ if (!args[0]) throw `Use example ${usedPrefix + command} https://www.facebook.co
 const { result } = await facebookdl(args[0]).catch(async _ => await facebookdlv2(args[0]))
 for (const { url, isVideo } of result.reverse()) conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, `✨ *ᴜʀʟ:* ${url}`, m)
   let info = `💝 *ʟᴏᴀᴅɪɴɢ....., 
-WH-MODS-BOT-V1-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ*
+WannBotz-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ*
   `.trim()
   
 await conn.sendHydrated(m.chat, info, wm, null, sig, 'ɪɴsᴛᴀɢʀᴀᴍ✨', null, null, [
