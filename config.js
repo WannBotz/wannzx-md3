@@ -132,21 +132,21 @@ global.author = '                「 WannBotz  あ」'
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
 global.fpagedoc = '1'.repeat(10)
-global.thumbdoc = 'https://telegra.ph/file/034136c7b6d326094741c.jpg'
+global.thumbdoc = 'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg'
-global.giflogo = 'https://telegra.ph/file/3f491ba0ae79c0fa82389.jpg'
-global.thumbs = ['https://telegra.ph/file/a8bd59139800db9dd252b.jpg']
-global.fla = 'https://telegra.ph/file/a8bd59139800db9dd252b.jpg'
+global.thumb = 'https://i.ibb.co/TqCZsdb/IMG-20221002-WA0035.jpg' //Main Thumbnail
+global.imagebot = 'https://i.ibb.co/TqCZsdb/IMG-20221002-WA0035.jpg'
+global.giflogo = 'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg'
+global.thumbs = ['https://i.ibb.co/TqCZsdb/IMG-20221002-WA0035.jpg']
+global.fla = 'https://i.ibb.co/TqCZsdb/IMG-20221002-WA0035.jpg'
 global.thumbnailUrl = [
-'https://telegra.ph/file/a8bd59139800db9dd252b.jpg','https://telegra.ph/file/a8bd59139800db9dd252b.jpg',
-'https://telegra.ph/file/a8bd59139800db9dd252b.jpg','https://telegra.ph/file/a8bd59139800db9dd252b.jpg',
-'https://telegra.ph/file/a8bd59139800db9dd252b.jpg','https://telegra.ph/file/a8bd59139800db9dd252b.jpg',
-'https://telegra.ph/file/a8bd59139800db9dd252b.jpg','https://telegra.ph/file/a8bd59139800db9dd252b.jpg',
-'https://telegra.ph/file/a8bd59139800db9dd252b.jpg','https://telegra.ph/file/a8bd59139800db9dd252b.jpg']
+'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg','https://telegra.ph/file/2c95eee64e0997b79c71c.jpg',
+'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg','https://telegra.ph/file/2c95eee64e0997b79c71c.jpg',
+'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg','https://telegra.ph/file/2c95eee64e0997b79c71c.jpg',
+'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg','https://telegra.ph/file/2c95eee64e0997b79c71c.jpg',
+'https://telegra.ph/file/2c95eee64e0997b79c71c.jpg','https://telegra.ph/file/2c95eee64e0997b79c71c.jpg']
 
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
