@@ -12,7 +12,7 @@ ${msToDate(global.db.data.chats[who].expired - now)}`, m)
 }
 handler.help = ['cekexpired']
 handler.tags = ['group']
-handler.command = /^((cek)?expired)$/i
+handler.command = /^((cek)?expired|ceksewa)$/i
 handler.group = true
 
 export default handler

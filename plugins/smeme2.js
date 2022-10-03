@@ -3,7 +3,7 @@ const { sticker } = require('../lib/sticker')
 
 let handler = async (m, { conn, text, usedPrefix }) => {
  try {
-  let [teks, teks2] = text.split('|')
+  let [teks] = text.split(' ')
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
   if (!mime) throw 'Tidak ada foto'
@@ -18,9 +18,9 @@ let handler = async (m, { conn, text, usedPrefix }) => {
    m.reply(`Masukan format!!\nReply image dengan caption ${usedPrefix}smeme *teks*\n*Jangan reply sticker*`)
   }
 }
-handler.help = ['smeme']
+handler.help = ['smeme2']
 handler.tags = ['sticker', 'limitmenu']
-handler.command = /^smeme$/i
+handler.command = /^smeme2$/i
 
 handler.limit = true
 

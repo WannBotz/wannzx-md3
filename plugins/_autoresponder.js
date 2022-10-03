@@ -33,7 +33,7 @@ let jadibot = jadbot[Math.floor(Math.random() * jadbot.length)]
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-let regs = /(aku cinta kamu)/i
+let regs = /(aku cinta kamu|aku cinta kamuh|aku cinta kmu|aku cinta kmuh)/i
     let isCintaKamu = regs.exec(m.text)
     let cinmu = [
 '❤️',
@@ -48,7 +48,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${cintakamuh}`, m)
+        conn.reply(m.chat, `Aku juga cinta kamu ${cintakamuh}`, m)
     }, 1000)
     }
     
@@ -56,7 +56,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
 /* - - - - - - - Ini autoresponder by arie - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regc = /(aku sayang kamu)/i
+    let regc = /(aku sayang kamu|aku sayang kmu|aku syg kamu|aku syg kmu)/i
     let isSayangKamu = regc.exec(m.text)
     let saymu = [
 '❤️',
@@ -79,31 +79,30 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regl = /(I love you|love you)/i
-    let isLoveYou = regl.exec(m.text)
-    let lovou = [
+    let regc = /(i love you|lopiuu|lopiu)/i
+    let isSayangKamu = regc.exec(m.text)
+    let lovyou = [
 '❤️',
 '🥰',
 '😍'
 ]
-let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
-    if (isLoveYou && !m.fromMe) {
-    let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
+let loveyou = saymu[Math.floor(Math.random() * lovyou.length)]
+    if (isloveyou && !m.fromMe) {
     conn.sendMessage(m.chat, {
         react: {
-          text: `${loveyou}`,
+          text: `${i love you}`,
           key: m.key,
         }})
    setTimeout(() => {
-        conn.sendFile(m.chat, helloaine, '', '', m, true)
+        conn.reply(m.chat, `i love you too ${i love you}`, m)b
     }, 1000)
     }
-    
+     
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder by wh mods dev - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-    let ass = /(assalamualaikum|assallamualaikum|assalamu\'alaikum|as\'salamualaikum)/i
+    let ass = /(assalamualaikum|assallamualaikum|Assalamualaikum|assalamu\'alaikum|as\'salamualaikum)/i
     let isAss = ass.exec(m.text)
     let assal = [
 '🥰',
